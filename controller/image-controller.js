@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 const PORT = process.env.PORT;
 
-const url = `http://localhost:${PORT}`;
+const url = `https://project-server-dl4t.onrender.com`;
 
 
 let gfs, gridfsBucket;
